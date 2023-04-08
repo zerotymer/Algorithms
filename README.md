@@ -5,6 +5,7 @@ FORTH EDITION
 
 [북사이트](https://algs4.cs.princeton.edu/home/)
 [예제 소스](https://algs4.cs.princeton.edu/code/) 
+[데이터](https://github.com/gilbutITbook/006782)
 
 ## Libraries
  * Standard

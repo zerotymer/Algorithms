@@ -1,0 +1,1 @@
+ -XX:+ShowCodeDetailsInExceptionMessages -cp "target:lib/algs4.jar"

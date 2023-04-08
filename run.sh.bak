@@ -1,0 +1,19 @@
+#!/bin/sh
+
+if test="$1" ; then
+	echo "test code"
+	# build
+	echo "javac ./src/my/test/Test.java"
+	javac ./src/my/test/Test.java
+	# run
+	echo "java -cp ./src/my/test/* my.test.Test"
+	java -cp ./src/my/test/* my.test.Test 
+elif 1=1 ; then
+	echo "run code"
+	# build
+	echo "javac ./src/my/$1/$2.java"
+	javac ./src/my/$1/$2.java
+	# run
+	echo "java -cp ./src/my/$1/* my.$1.$2"
+	java -cp ./src/my/$1/* my.$1.$2
+fi

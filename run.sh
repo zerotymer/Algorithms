@@ -1,7 +1,13 @@
 #!/bin/sh
+
 # build
-echo "javac ./src/my/$1/$2.java"
-javac ./src/my/$1/$2.java
+echo "javac -classpath lib/* -d target ./src/$1/$2/*.java"
+javac -classpath lib/*:src/$1/$2/* -d target src/$1/$2/*.java 
+#javac-algs4 -d target ./src/$1/$2/*.java 
+
 # run
-echo "java -cp ./src/my/$1/* my.$1.$2"
-java -cp ./src/my/$1/* my.$1.$2
+echo "java -classpath target:lib/args4.jar $1.$2.$3 $4"
+echo ""
+echo ""
+java -classpath target:lib/* $1.$2.$3 $4
+#java-algs4 -classpath target $1.$2.$3 $4
