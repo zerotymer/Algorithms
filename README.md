@@ -1,7 +1,7 @@
 # algorithms
 
 # Algorithms
-FORTH EDITION
+FORTH EDITION 문제풀이중.
 
 [북사이트](https://algs4.cs.princeton.edu/home/)
 [예제 소스](https://algs4.cs.princeton.edu/code/) 

@@ -2,6 +2,10 @@ package ref.common;
 
 import edu.princeton.cs.algs4.StdOut;
 
+/**
+ * 표 1-33 추상 데이터 타입으로 만든 단순 카운터
+ * <br> 95p
+ */
 public class Counter {
 
     /// region Fields
